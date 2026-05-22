@@ -1436,6 +1436,774 @@ const QUESTIONS = [
     ],
     answer: 1,
     explain: "The slides note that the techniques covered are the most widely used, but specialized equipment exists for specific industries that the course doesn't cover."
+  },
+
+  // ============ STILL MORE CHROMATOGRAPHY ============
+  {
+    topic: "Chromatography",
+    source: "Post lab 2.pdf",
+    q: "The fatty-acid composition study of Scenedesmus obliquus (a microalga) cited in the slides demonstrates use of chromatography to:",
+    choices: [
+      "Identify functional groups via IR alone",
+      "Quantify the relative abundance of different fatty acids in a complex biological extract",
+      "Image the algal cells",
+      "Measure conductivity of the medium"
+    ],
+    answer: 1,
+    explain: "The cited application uses chromatography (typically GC after derivatization to fatty acid methyl esters) to give a fatty-acid composition profile of the microalga."
+  },
+  {
+    topic: "Chromatography",
+    source: "Post lab 2.pdf",
+    q: "The 'outer membrane vesicle heterogeneity' application cited in the slides uses SEC to:",
+    choices: [
+      "Identify a single membrane lipid",
+      "Analyze the size heterogeneity of bacterial outer-membrane vesicles",
+      "Crystallize membrane proteins",
+      "Measure cell conductivity"
+    ],
+    answer: 1,
+    explain: "SEC separates vesicles by hydrodynamic size — useful for characterizing the population heterogeneity of OMVs (small extracellular vesicles)."
+  },
+  {
+    topic: "Chromatography",
+    source: "Post lab 2.pdf",
+    q: "Per the slides, ion exchange chromatography can be used to separate URANIUM from plutonium and other ACTINIDES because:",
+    choices: [
+      "They have different boiling points",
+      "Different actinides form different complexes / charge states that give them different affinities for the resin",
+      "They differ in color",
+      "They differ in radioactivity directly"
+    ],
+    answer: 1,
+    explain: "Actinide separations by IEC exploit differences in ionic charge and complexation behavior (e.g. with chloride or nitrate) — different oxidation states / complexes elute at different times."
+  },
+  {
+    topic: "Chromatography",
+    source: "Post lab 2.pdf",
+    q: "In SEC, a molecule that is INTERMEDIATE in size compared to the average pore:",
+    choices: [
+      "Is fully excluded and elutes at the void volume",
+      "Penetrates the pores partially and elutes between the void volume and the totally-included peak",
+      "Stays at the top of the column",
+      "Reacts chemically with the resin"
+    ],
+    answer: 1,
+    explain: "SEC separates by progressively greater pore access: large = excluded (early), small = fully included (late). Intermediate-size species elute in between, which is how SEC fractionates by size."
+  },
+  {
+    topic: "Chromatography",
+    source: "Post lab 2.pdf",
+    q: "Industrial production of DEIONIZED (DI) water typically uses a 'mixed bed' of:",
+    choices: [
+      "Two cation resins (H-form + Na-form)",
+      "Strong-acid cation resin in H-form + strong-base anion resin in OH-form, in the same column",
+      "Two anion resins (OH-form + Cl-form)",
+      "A cation resin plus a precipitating agent like AgNO3"
+    ],
+    answer: 1,
+    explain: "The mixed bed exchanges all dissolved cations for H+ and all dissolved anions for OH-; the H+ and OH- then recombine as water — producing demineralized water in a single pass."
+  },
+  {
+    topic: "Chromatography",
+    source: "Post lab 2.pdf",
+    q: "In a STRONG-BASE anion-exchange resin, the fixed functional group on the polymer matrix is typically:",
+    choices: [
+      "Sulfonic acid (–SO3H)",
+      "A quaternary ammonium group (e.g. –N(CH3)3+ ) that is fully ionized over the entire pH range",
+      "A neutral –OH only",
+      "A carboxylate (–COO-)"
+    ],
+    answer: 1,
+    explain: "Strong-base anion resins use quaternary ammonium groups: permanently positively charged, so anion exchange capacity is independent of pH."
+  },
+  {
+    topic: "Chromatography",
+    source: "Post lab 2.pdf",
+    q: "Why does ion-exchange chromatography work poorly for NEUTRAL, uncharged organic molecules?",
+    choices: [
+      "It is highly selective for them",
+      "Neutral species have no fixed charge to interact with the resin's ionic functional groups",
+      "Resins dissolve in non-polar solvents",
+      "There is no mobile phase available"
+    ],
+    answer: 1,
+    explain: "Ion exchange relies on Coulombic attraction between a charged analyte and an oppositely charged resin site. Neutral species don't interact and just pass through."
+  },
+  {
+    topic: "Chromatography",
+    source: "Post lab 2.pdf",
+    q: "Per the slides, ELUTION is best described as:",
+    choices: [
+      "The act of loading the sample",
+      "Movement of the analytes through and out of the column, carried by the mobile phase",
+      "Stopping the flow of mobile phase",
+      "Heating the column"
+    ],
+    answer: 1,
+    explain: "Elution is the movement of analytes through (and ultimately out of) the column with the mobile phase — different species elute at different times based on their interactions."
+  },
+  {
+    topic: "Chromatography",
+    source: "Post lab 2.pdf",
+    q: "The SEPARATION RANGE of an SEC column (the range of molecular weights it can resolve) is set primarily by:",
+    choices: [
+      "The mobile-phase composition only",
+      "The pore-size distribution of the packing material",
+      "The temperature of the column",
+      "The applied electric potential"
+    ],
+    answer: 1,
+    explain: "An SEC column's pore-size distribution sets which molecules are excluded (too big), which are fully included (too small), and which fall in the resolving range between."
+  },
+  {
+    topic: "Chromatography",
+    source: "Post lab 2.pdf",
+    q: "In the slide's separation-table, CENTRIFUGATION is assigned to which basis?",
+    choices: ["Size", "Mass or density", "Complex formation", "Phase change"],
+    answer: 1,
+    explain: "The table assigns centrifugation to 'mass or density' — it separates by the differing sedimentation rates of species of different mass/density."
+  },
+  {
+    topic: "Chromatography",
+    source: "Post lab 2.pdf",
+    q: "Which separation approach in the slide's table exploits COMPLEX FORMATION as its basis?",
+    choices: [
+      "Filtration",
+      "Masking — using a selective complexing agent to tie up the interferent",
+      "Recrystallization",
+      "Electrodeposition"
+    ],
+    answer: 1,
+    explain: "The table pairs 'complex formation' with 'masking' — selectively forming a complex with an interferent so it no longer interferes with the analyte's chemistry."
+  },
+  {
+    topic: "Chromatography",
+    source: "Post lab 2.pdf",
+    q: "Which is the best LC mode to use for separating a mixture of structurally similar small molecules that differ mainly in POLARITY?",
+    choices: [
+      "Size-exclusion chromatography",
+      "Adsorption (normal-phase) liquid chromatography on a polar stationary phase like silica",
+      "Ion-exchange chromatography of neutrals",
+      "Gas chromatography of non-volatile, thermally labile species"
+    ],
+    answer: 1,
+    explain: "Polarity-differentiated small molecules separate best on adsorption (or partition / reversed-phase) LC; SEC cares only about size, and IEC needs charge."
+  },
+
+  // ============ STILL MORE IR & FTIR ============
+  {
+    topic: "IR & FTIR",
+    source: "Post lab 2.pdf",
+    q: "The 'fingerprint region' of an IR spectrum is generally taken to be:",
+    choices: [
+      "4000–2500 cm-1 (the high-energy stretching region)",
+      "~1400–400 cm-1 — rich in single-bond modes and skeletal vibrations characteristic of the whole molecule",
+      "Above 4000 cm-1 only",
+      "Centered narrowly at 1700 cm-1"
+    ],
+    answer: 1,
+    explain: "The fingerprint region (~1400–400 cm-1) is densely populated with C–C, C–N, C–O, C–X and skeletal modes — overall pattern is highly diagnostic for molecular identity."
+  },
+  {
+    topic: "IR & FTIR",
+    source: "Post lab 2.pdf",
+    q: "A PRIMARY amine (R–NH2) shows in the IR:",
+    choices: [
+      "Exactly one sharp N–H stretch",
+      "Two N–H stretches (symmetric + asymmetric) around ~3300 and ~3400 cm-1",
+      "No N–H absorption",
+      "Only a strong C=O peak"
+    ],
+    answer: 1,
+    explain: "Primary amines have two N–H bonds that give two stretches (symmetric ~3300 and asymmetric ~3400 cm-1) — a classic diagnostic for 1° amines."
+  },
+  {
+    topic: "IR & FTIR",
+    source: "Post lab 2.pdf",
+    q: "A SECONDARY amine (R–NH–R′) shows in the IR:",
+    choices: [
+      "Two N–H stretches",
+      "One N–H stretch (only one N–H bond present)",
+      "Three N–H stretches",
+      "No N–H stretches at all"
+    ],
+    answer: 1,
+    explain: "Secondary amines have only one N–H bond, so they show a single N–H stretch — distinguishing them from primary amines."
+  },
+  {
+    topic: "IR & FTIR",
+    source: "Post lab 2.pdf",
+    q: "A TERTIARY amine (R3N) shows in the IR:",
+    choices: [
+      "Two N–H stretches",
+      "One N–H stretch",
+      "No N–H stretches at all (no N–H bonds)",
+      "A C=O peak at 1700 cm-1"
+    ],
+    answer: 2,
+    explain: "Tertiary amines have no N–H bonds, so the N–H stretching region is empty — useful by absence."
+  },
+  {
+    topic: "IR & FTIR",
+    source: "Post lab 2.pdf",
+    q: "Compared with a free (non-hydrogen-bonded) alcohol O–H near ~3600 cm-1 (sharp), the O–H of a CARBOXYLIC ACID dimer in neat or concentrated solution shows:",
+    choices: [
+      "A sharper peak in the same place",
+      "A very broad, often strong absorption spanning ~2500–3300 cm-1 due to strong hydrogen bonding",
+      "No O–H peak at all",
+      "A peak only at 1700 cm-1"
+    ],
+    answer: 1,
+    explain: "Carboxylic acids form hydrogen-bonded dimers in the condensed phase — their O–H stretch becomes very broad and red-shifted, often spanning 2500–3300 cm-1."
+  },
+  {
+    topic: "IR & FTIR",
+    source: "Post lab 2.pdf",
+    q: "sp3 C–H stretches (alkanes) typically appear in the IR:",
+    choices: [
+      "Below 2900 cm-1",
+      "Just below 3000 cm-1 (~2850–2960 cm-1)",
+      "Above 3300 cm-1",
+      "Below 1500 cm-1"
+    ],
+    answer: 1,
+    explain: "sp3 C–H (alkyl) stretches fall just below 3000 cm-1 — typically 2850–2960 cm-1."
+  },
+  {
+    topic: "IR & FTIR",
+    source: "Post lab 2.pdf",
+    q: "sp2 (vinyl / aromatic) C–H stretches typically appear:",
+    choices: [
+      "Below 2800 cm-1",
+      "Just ABOVE 3000 cm-1 (~3000–3100 cm-1)",
+      "Below 1500 cm-1",
+      "Right at ~2200 cm-1"
+    ],
+    answer: 1,
+    explain: "sp2 C–H stretches fall just above 3000 cm-1 — a quick way to confirm aromatic or vinyl character is C–H absorbance above 3000."
+  },
+  {
+    topic: "IR & FTIR",
+    source: "Post lab 2.pdf",
+    q: "Which is NOT one of the three named advantages of FTIR over dispersive IR?",
+    choices: ["Jacquinot (throughput)", "Fellgett (multiplex)", "Connes (precision)", "Faraday (charge)"],
+    answer: 3,
+    explain: "FTIR's three advantages are Jacquinot (throughput), Fellgett (multiplex), and Connes (precision). 'Faraday' belongs to electrochemistry, not FTIR."
+  },
+  {
+    topic: "IR & FTIR",
+    source: "Post lab 2.pdf",
+    q: "Per the slides, ATR is particularly attractive for sampling:",
+    choices: [
+      "Only pure gas-phase samples",
+      "Polymers, rubbers, films, and liquid samples — with minimal or no sample preparation",
+      "Only crystalline solids at low temperature",
+      "Only single crystals at high pressure"
+    ],
+    answer: 1,
+    explain: "The slides specifically note ATR's attractiveness for polymers, rubbers, films, and liquids — and for samples too opaque or thick for transmission."
+  },
+  {
+    topic: "IR & FTIR",
+    source: "Post lab 2.pdf",
+    q: "Which kind of sample would generally NOT work well in standard ATR without modification?",
+    choices: [
+      "A thin polymer film pressed against the crystal",
+      "A finely powdered solid pressed firmly onto the crystal",
+      "A rubber sheet contacted to the crystal",
+      "A gas at atmospheric pressure with no condensed phase"
+    ],
+    answer: 3,
+    explain: "ATR requires the sample to be in optical contact with the crystal (an evanescent wave penetrates only microns). Gases lack the condensed-phase contact needed to absorb the evanescent field."
+  },
+  {
+    topic: "IR & FTIR",
+    source: "Post lab 2.pdf",
+    q: "DIAMOND is sometimes used as an ATR crystal material because it:",
+    choices: [
+      "Has a very low refractive index (n ≈ 1.0)",
+      "Is extremely hard and chemically inert, with a wide IR window — robust for harsh / abrasive samples",
+      "Is the cheapest crystal material",
+      "Is opaque to IR"
+    ],
+    answer: 1,
+    explain: "Diamond ATR crystals are scratch-resistant and inert — they handle acidic, basic, or abrasive samples that would damage softer crystals (ZnSe, KRS-5)."
+  },
+  {
+    topic: "IR & FTIR",
+    source: "Post lab 2.pdf",
+    q: "KRS-5 (thallium bromoiodide) is occasionally used in IR optics because:",
+    choices: [
+      "It is water-soluble and easy to clean",
+      "It is non-toxic and food-safe",
+      "It has a wide IR transmission window — despite being soft, somewhat toxic, and prone to scratching",
+      "It is a strong oxidizer that activates the sample"
+    ],
+    answer: 2,
+    explain: "KRS-5 transmits IR over a wide range and is moderately resistant to water, but it is soft, toxic, and easily scratched — used carefully when the IR window is the priority."
+  },
+  {
+    topic: "IR & FTIR",
+    source: "Post lab 2.pdf",
+    q: "The slide application 'sampling and identification of microplastics in groundwater' demonstrates use of:",
+    choices: [
+      "NMR",
+      "FTIR (often via ATR) to identify the polymer composition of microplastic particles",
+      "Bomb calorimetry",
+      "Polarimetry"
+    ],
+    answer: 1,
+    explain: "FTIR (often with ATR) is the standard fingerprinting tool for identifying microplastic polymer composition by matching to spectral libraries."
+  },
+  {
+    topic: "IR & FTIR",
+    source: "Post lab 2.pdf",
+    q: "An FTIR's interferogram is converted into a spectrum by applying:",
+    choices: [
+      "A Bragg–Wulff transform",
+      "A Fourier transform",
+      "A Beer–Lambert correction",
+      "A Nernst transform"
+    ],
+    answer: 1,
+    explain: "The whole point of an FT instrument: the time-domain interferogram is converted to a frequency-domain spectrum by the Fourier transform."
+  },
+  {
+    topic: "IR & FTIR",
+    source: "Post lab 2.pdf",
+    q: "A peak in your IR spectrum that looks distorted (asymmetric) ONLY when run via ATR but is sharp by transmission is most likely caused by:",
+    choices: [
+      "The He–Ne laser drift",
+      "Optical artifacts inherent to ATR — refractive-index dispersion and wavelength-dependent penetration that distort intense bands",
+      "A defective detector",
+      "The sample being too cold"
+    ],
+    answer: 1,
+    explain: "Strong ATR bands can look red-shifted and asymmetric because of the wavelength-dependent penetration depth and refractive-index dispersion at the crystal/sample interface."
+  },
+
+  // ============ STILL MORE ELECTROANALYSIS RECAP ============
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "The Prussian-Blue-modified glassy carbon electrode shown in the slides is an example of:",
+    choices: [
+      "A purely passive bare electrode",
+      "A MODIFIED working electrode in a biosensor — the PB layer catalyzes a specific redox reaction (e.g. H2O2 reduction at low potential)",
+      "A reference electrode",
+      "A counter electrode only"
+    ],
+    answer: 1,
+    explain: "Prussian Blue acts as an 'artificial peroxidase' that catalyzes H2O2 reduction at very low overpotentials — a common modification on glassy carbon for amperometric biosensors."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "The CHOLESTEROL biosensor example in the slides uses:",
+    choices: [
+      "A plain Pt electrode in pure water",
+      "A cholesterol / Prussian Blue sol-gel modified glassy carbon electrode interrogated by cyclic voltammetry, with peak current increasing with cholesterol concentration",
+      "A potentiometric titration with phenolphthalein",
+      "A flame AAS measurement"
+    ],
+    answer: 1,
+    explain: "The slide shows cyclic voltammograms of a cholesterol/PB sol-gel modified glassy carbon electrode, with CV traces b–f at increasing cholesterol concentration."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "A glucose biosensor based on glucose oxidase typically generates the electrochemical signal because:",
+    choices: [
+      "Glucose itself absorbs visible light",
+      "The enzyme generates H2O2 (or reduces a mediator) that is then detected electrochemically — usually amperometrically — at the working electrode",
+      "Glucose fluoresces strongly when reduced",
+      "Glucose causes a large pH jump"
+    ],
+    answer: 1,
+    explain: "Glucose oxidase oxidizes glucose to gluconolactone, reducing O2 to H2O2 (or a mediator). The H2O2 (or reduced mediator) is then quantified amperometrically at the working electrode."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "Quantification of iron in FERROUS SULFATE supplements by cyclic voltammetry exploits:",
+    choices: [
+      "The pH of the supplement",
+      "The Fe2+/Fe3+ redox couple — peak currents (or peak charge) proportional to iron concentration",
+      "The IR absorbance of FeSO4",
+      "The magnetic susceptibility of Fe"
+    ],
+    answer: 1,
+    explain: "Fe2+/Fe3+ is a well-behaved one-electron redox couple in solution; CV gives clean anodic and cathodic peaks whose currents track concentration."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "In LSV / DP-LSV used for quantitative analysis, a calibration with KNOWN-concentration standards is needed because:",
+    choices: [
+      "The peak/plateau height vs concentration relationship is empirically calibrated for each analyte and condition",
+      "All voltammetric methods are self-calibrating",
+      "LSV cannot be quantitative",
+      "Concentration is irrelevant to peak height"
+    ],
+    answer: 0,
+    explain: "Per the slides, the plateau/peak height for each species must be calibrated against a series of standards with known concentrations to convert measurements to concentrations."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "Why is a PLATINUM-wire counter electrode commonly used in a single-compartment voltammetric cell?",
+    choices: [
+      "It dissolves easily in the analyte for cleaner signal",
+      "It is electrochemically inert across a wide potential window and conducts well — ideal as a current sink",
+      "It is the cheapest electrode material available",
+      "It is a strong reducing agent that drives the reaction"
+    ],
+    answer: 1,
+    explain: "Pt's wide potential window of electrochemical inertness and good conductivity make it the standard inert counter electrode for routine voltammetry."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "A cyclic voltammogram showing ΔEp ≈ 59 mV between anodic and cathodic peaks (at 25 °C) with ipa/ipc ≈ 1 is diagnostic of:",
+    choices: [
+      "A totally irreversible couple",
+      "An electrochemically REVERSIBLE one-electron couple",
+      "An adsorption-only system with no diffusion",
+      "A short circuit through the reference electrode"
+    ],
+    answer: 1,
+    explain: "ΔEp ≈ 59/n mV at 25 °C, ipa/ipc ≈ 1, and ip scaling with √υ are the textbook fingerprints of an electrochemically reversible n-electron couple."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "A cyclic voltammogram with very large peak separation (e.g. ΔEp ≈ 200 mV or more, and the gap grows with scan rate) most likely indicates:",
+    choices: [
+      "A perfectly reversible couple",
+      "Slow electron-transfer kinetics — quasi-reversible or irreversible behavior",
+      "A failed reference electrode",
+      "A bona fide short circuit"
+    ],
+    answer: 1,
+    explain: "Large, scan-rate-dependent ΔEp is the classic signature of slow heterogeneous electron-transfer kinetics: quasi-reversible or fully irreversible behavior."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "The slide's ideal-pH-electrode list says the assembly should be electrically SYMMETRICAL because:",
+    choices: [
+      "It looks neater",
+      "The galvanic potentials of the measuring and reference half-cells then cancel each other, leaving only the pH-dependent membrane potential",
+      "It changes the temperature dependence",
+      "It makes the instrument run faster"
+    ],
+    answer: 1,
+    explain: "If the measuring and reference electrode systems are identical except for the membrane, their internal galvanic contributions cancel — only the pH-driven membrane potential remains."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "If a freshly calibrated pH glass electrode shows a slope of only ~30 mV/pH at 25 °C (instead of the ideal ~59 mV/pH), this most likely indicates:",
+    choices: [
+      "Excellent performance — better than spec",
+      "Membrane damage, contamination, or dehydration — the electrode probably needs cleaning, rehydrating, or replacement",
+      "Very high accuracy",
+      "Excellent sensitivity at the high-pH end"
+    ],
+    answer: 1,
+    explain: "The Nernstian slope at 25 °C for an n=1 H+ response is 59.16 mV/pH. A sub-Nernstian slope is a red flag for membrane problems — clean, rehydrate, or replace."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "What is the role of the INTERNAL buffer solution inside a glass pH electrode?",
+    choices: [
+      "Maintains a CONSTANT pH on the inside of the membrane, so the membrane potential varies only with the SAMPLE side",
+      "Reacts directly with the sample analyte",
+      "Replaces the reference electrode",
+      "Provides the diffusion potential E6"
+    ],
+    answer: 0,
+    explain: "The internal buffer fixes the H+ activity on the inside of the membrane. With that side held constant, any change in the measured potential reflects the SAMPLE side pH."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "Why is the FLUORIDE ion-selective electrode operating pH kept around 5.0–5.5 (typically via TISAB)?",
+    choices: [
+      "To minimize OH- interference at high pH AND avoid HF formation (which removes free F-) at low pH",
+      "Because the LaF3 crystal melts above pH 5.5",
+      "Because Eu2+ only works at pH 5.0",
+      "Because the SCE only works at pH 5.0"
+    ],
+    answer: 0,
+    explain: "Above ~pH 8, OH- (similar radius/charge) interferes with F- response on LaF3. Below ~pH 5, F- protonates to HF and becomes invisible to the electrode. ~5–5.5 is the sweet spot."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "A significant INTERFERENT for the LaF3 fluoride ISE is:",
+    choices: [
+      "Cl-",
+      "OH- (at high pH, because OH- can substitute for F- at the membrane surface)",
+      "K+",
+      "Na+"
+    ],
+    answer: 1,
+    explain: "OH- has a similar ionic radius and charge to F- and can compete at the LaF3 surface — that's the main interferent the slides flag. Cl-, Na+, K+ are generally not problems."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "Why does the cyclic voltammogram of ASCORBIC ACID in fruit juice show only an ANODIC peak (no reverse cathodic peak)?",
+    choices: [
+      "The instrument is broken",
+      "Oxidation of ascorbic acid is followed by rapid chemical follow-up, so the oxidized form does not reduce back on the CV timescale — irreversible electrochemistry",
+      "The reduction happens too fast to capture",
+      "Ascorbic acid is non-electroactive"
+    ],
+    answer: 1,
+    explain: "Ascorbic acid → dehydroascorbic acid + 2e- + 2H+. The dehydroascorbic acid undergoes rapid follow-up chemistry (hydration, ring opening), so no reverse cathodic peak appears."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "When a CV of ascorbic acid shows no reverse peak, can it still be used quantitatively?",
+    choices: [
+      "No — only fully reversible couples are quantifiable",
+      "Yes — the height of the anodic peak still tracks ascorbic acid concentration and is calibrated against standards",
+      "No — irreversible reactions produce no current",
+      "Only by NMR"
+    ],
+    answer: 1,
+    explain: "Irreversible CV is still quantitative — the anodic peak current scales with concentration (often with a √υ dependence) and is calibrated with standards."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "The slide labels Epc and ipc on a cyclic voltammogram. What do these stand for?",
+    choices: [
+      "Epc = cathodic peak potential; ipc = cathodic peak current",
+      "Epc = empty pot constant; ipc = ion polarity coefficient",
+      "Epc = anodic peak potential; ipc = anodic peak current",
+      "Epc = pH constant; ipc = ionic conductivity"
+    ],
+    answer: 0,
+    explain: "On a CV: Epc/ipc are the cathodic (reduction) peak potential and current; Epa/ipa are the anodic (oxidation) peak potential and current."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "If you wanted to compare voltammetry with potentiometry as recap on this lecture, the right framing is:",
+    choices: [
+      "Potentiometry measures current at zero potential; voltammetry measures voltage at zero current",
+      "Potentiometry measures the cell potential at near-zero current (analyte unchanged); voltammetry measures current as the applied potential is varied (analyte consumed at the electrode)",
+      "Both methods measure the mass of the working electrode",
+      "Both methods are non-faradaic"
+    ],
+    answer: 1,
+    explain: "Potentiometry: measure E at ~zero current, analyte largely unchanged — good for activity. Voltammetry: apply E (often a sweep) and measure i — gives concentration, kinetics, mechanism information."
+  },
+  {
+    topic: "Electroanalysis recap",
+    source: "Post lab 2.pdf",
+    q: "In an ASV measurement for trace Pb2+, the deposition step applies a potential that is:",
+    choices: [
+      "Strongly positive of E°(Pb2+/Pb), to oxidize Pb",
+      "Strongly negative of E°(Pb2+/Pb), to REDUCE and electroplate Pb onto the working electrode",
+      "Held at the open-circuit potential, to do nothing",
+      "Rapidly swept at high scan rate, with no fixed potential"
+    ],
+    answer: 1,
+    explain: "ASV deposition: hold a potential well negative of the metal's reduction potential (often with stirring) so Pb2+ is reduced and accumulates on the electrode. Then sweep anodically to strip it back off — giving a peak whose area/height quantifies the trace metal."
+  },
+
+  // ============ STILL MORE CHOOSING A TECHNIQUE ============
+  {
+    topic: "Choosing a technique",
+    source: "Post lab 2.pdf",
+    q: "When evaluating analytical methods, common 'figures of merit' include all of these EXCEPT:",
+    choices: [
+      "Accuracy and precision",
+      "Sensitivity and detection limit",
+      "Selectivity (and dynamic range)",
+      "The color of the instrument cabinet"
+    ],
+    answer: 3,
+    explain: "Standard figures of merit: accuracy, precision, sensitivity, detection limit, selectivity, linear/dynamic range, robustness. Cabinet color is irrelevant."
+  },
+  {
+    topic: "Choosing a technique",
+    source: "Post lab 2.pdf",
+    q: "For an unknown ORGANIC molecule where you have a small (but enough) pure sample and need structural information, the best technique combo to use is:",
+    choices: [
+      "NMR (with mass spectrometry as a partner) for structure",
+      "Flame AAS",
+      "ICP-OES",
+      "A potentiometric titration"
+    ],
+    answer: 0,
+    explain: "NMR + MS is the standard combination for organic structural elucidation: NMR for connectivity / stereochemistry, MS for molecular mass and fragmentation."
+  },
+  {
+    topic: "Choosing a technique",
+    source: "Post lab 2.pdf",
+    q: "Which technique gives multielement QUALITATIVE plus QUANTITATIVE elemental information via characteristic emission wavelengths?",
+    choices: [
+      "Flame AAS (single-element absorption)",
+      "ICP-OES (multielement emission)",
+      "NMR",
+      "GC-FID"
+    ],
+    answer: 1,
+    explain: "ICP-OES uses inductively coupled plasma to excite atoms; each element emits at characteristic wavelengths, giving multielement qualitative + quantitative info simultaneously."
+  },
+  {
+    topic: "Choosing a technique",
+    source: "Post lab 2.pdf",
+    q: "Which is the best technique to use to routinely measure the Pb-207/Pb-206 ISOTOPE RATIO in lead samples?",
+    choices: ["ICP-OES", "ICP-MS", "Flame AAS", "FTIR"],
+    answer: 1,
+    explain: "ICP-MS measures isotopes individually by mass and is the standard tool for isotope-ratio measurements at trace levels."
+  },
+  {
+    topic: "Choosing a technique",
+    source: "Post lab 2.pdf",
+    q: "For separating and quantifying a SMALL-MOLECULE drug in blood plasma at therapeutic concentration, the best technique to use is:",
+    choices: [
+      "SEC",
+      "HPLC–MS (or HPLC with UV detection)",
+      "Bomb calorimetry",
+      "X-ray crystallography"
+    ],
+    answer: 1,
+    explain: "HPLC–MS is the workhorse for therapeutic drug monitoring and pharmacokinetics — high selectivity, low LOD, and excellent quantitative accuracy in complex biological matrices."
+  },
+  {
+    topic: "Choosing a technique",
+    source: "Post lab 2.pdf",
+    q: "If TIME is the most constrained resource and you have many similar samples to analyze for the SAME element, the best technique to use is generally:",
+    choices: [
+      "GFAAS (low throughput per sample)",
+      "Flame AAS (high throughput, easy to use); ICP-OES if a few elements at once",
+      "ICP-MS (more setup overhead)",
+      "NMR"
+    ],
+    answer: 1,
+    explain: "Flame AAS is fast and simple — ideal for high-throughput single-element work. GFAAS gives better LOD but takes minutes per sample."
+  },
+  {
+    topic: "Choosing a technique",
+    source: "Post lab 2.pdf",
+    q: "If MONEY is the most constrained resource for a routine single-element trace analysis, the best technique to use is typically:",
+    choices: ["ICP-MS", "Flame AAS (low capital cost, easy operation)", "MALDI-TOF", "HPLC-ESI-MS"],
+    answer: 1,
+    explain: "Flame AAS instruments are inexpensive to buy and run, with low consumable costs — best when budget is the dominant constraint and one element is the target."
+  },
+  {
+    topic: "Choosing a technique",
+    source: "Post lab 2.pdf",
+    q: "For determining the OXIDATION STATE of Cr in a wastewater sample (Cr3+ vs Cr6+), the best technique to use is:",
+    choices: [
+      "Spectroscopic methods like FAAS or ICP — these give total Cr only",
+      "Electroanalytical (e.g. voltammetry) or selective wet chemistry / HPLC-ICP-MS — these give SPECIATION info",
+      "IR spectroscopy",
+      "NMR"
+    ],
+    answer: 1,
+    explain: "Cr6+ is the regulated toxic form; bulk FAAS / ICP-OES report total Cr only. Electroanalysis or speciation-capable methods (HPLC-ICP-MS) distinguish Cr6+ from Cr3+."
+  },
+  {
+    topic: "Choosing a technique",
+    source: "Post lab 2.pdf",
+    q: "If you have a solid polymer sample and need to identify its composition class quickly with minimal sample prep, the best technique to use is:",
+    choices: [
+      "FTIR (often with ATR) for functional-group / polymer-class identification",
+      "Flame AAS",
+      "ICP-OES",
+      "Gas chromatography"
+    ],
+    answer: 0,
+    explain: "FTIR-ATR + a polymer spectral library is the standard fast ID method for plastic / polymer samples — exactly the microplastic-ID workflow shown in the slides."
+  },
+  {
+    topic: "Choosing a technique",
+    source: "Post lab 2.pdf",
+    q: "Compared with UV-Vis absorption spectroscopy, FLUORESCENCE spectroscopy of organics is typically:",
+    choices: [
+      "Less sensitive",
+      "More sensitive (often by 2–3 orders of magnitude) WHEN the analyte fluoresces",
+      "Identical in sensitivity",
+      "Only useful for inorganic ions"
+    ],
+    answer: 1,
+    explain: "Fluorescence detects emitted photons against a dark background — typically 100–1000× more sensitive than UV-Vis absorption for analytes that fluoresce."
+  },
+  {
+    topic: "Choosing a technique",
+    source: "Post lab 2.pdf",
+    q: "Which technique would be the best FIRST choice to screen wastewater for a particular HEAVY METAL down to ppb levels in a PORTABLE setting (not the lab)?",
+    choices: [
+      "Lab-bench NMR",
+      "Portable anodic stripping voltammetry (ASV) — and in some scenarios portable XRF",
+      "GFAAS, which is a lab-bench instrument",
+      "Bomb calorimetry"
+    ],
+    answer: 1,
+    explain: "ASV with a portable potentiostat reaches ppb-level metal detection in the field — well suited to environmental screening outside of a fixed lab."
+  },
+  {
+    topic: "Choosing a technique",
+    source: "Post lab 2.pdf",
+    q: "A SOLID sample usually requires a 'digestion' step before:",
+    choices: [
+      "SEC of a polymer sample",
+      "Atomic spectroscopy methods (ICP-OES / ICP-MS / FAAS / GFAAS) — they need the sample in solution",
+      "ATR FTIR",
+      "Solid-state NMR"
+    ],
+    answer: 1,
+    explain: "Atomic spectroscopy methods (and many liquid-handling techniques) require the sample as a solution — solid digestion (acid, microwave, fusion) is the standard upstream step."
+  },
+  {
+    topic: "Choosing a technique",
+    source: "Post lab 2.pdf",
+    q: "When deciding between SEC and ion-exchange chromatography for protein purification, the right rule of thumb is:",
+    choices: [
+      "Use SEC to fractionate by SIZE; use ion exchange to separate by CHARGE / pI",
+      "Use SEC if the sample is colored; ion exchange if it's white",
+      "SEC is always faster, so always pick SEC",
+      "There is no real difference between the two modes"
+    ],
+    answer: 0,
+    explain: "SEC fractionates by hydrodynamic size; ion-exchange separates by net charge at the chosen pH. Most real protein workflows use both at different stages."
+  },
+  {
+    topic: "Choosing a technique",
+    source: "Post lab 2.pdf",
+    q: "When deciding between FTIR and NMR for everyday functional-group identification of small organic molecules in a teaching lab, the practical choice is usually:",
+    choices: [
+      "NMR — fast, cheap, easy at the bench",
+      "FTIR — fast, low-cost, abundant functional-group info; NMR gives deeper structural data but is slower and more expensive per sample",
+      "They are completely interchangeable for every purpose",
+      "Neither identifies functional groups"
+    ],
+    answer: 1,
+    explain: "FTIR is the daily-driver tool for functional-group ID at the bench — quick, inexpensive, and informative. NMR adds structural detail but at higher per-sample cost and time."
+  },
+  {
+    topic: "Choosing a technique",
+    source: "Post lab 2.pdf",
+    q: "For an unknown organic compound of which you have ~10 mg of pure material and want both functional-group info AND molecular weight, the most efficient combo to use is:",
+    choices: [
+      "IR (for functional groups) + MS (for molecular weight / fragmentation)",
+      "Bomb calorimetry + IR",
+      "SEC + ion chromatography",
+      "FAAS + GFAAS"
+    ],
+    answer: 0,
+    explain: "IR identifies functional groups quickly; MS gives accurate mass and fragmentation patterns. Together they answer most 'what is this molecule?' questions for a single, pure compound."
   }
 ];
 
